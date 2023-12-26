@@ -22,15 +22,15 @@ function App() {
       const isExist = repos.find(repo => repo.id === data.id)
  
       if (!isExist){
-      setRepos(prev => [...prev, data]);
-      setCurrentRepo('');
-      return
-      }else{
+        setRepos(prev => [...prev, data]);
+        setCurrentRepo('');
+        return
+      } else {
         alert("Já existe")
       }
-      }
-
-    alert("Repositório não encontrado")
+    } else {
+      alert("Repositório não encontrado")
+    }
   }
 
   const handleRemoveRepo = (id) =>{
