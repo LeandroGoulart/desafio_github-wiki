@@ -12,9 +12,10 @@ export const InputContainer = styled.div`
     
 
     input{
+        box-sizing: border-box;
         background-color: transparent;
         border: 0;
-        width: 95%;
+        width: 100%;
         height: 62px;
         padding: 0 20px;
         color: #ffffff;
