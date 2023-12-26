@@ -13,11 +13,21 @@ export const ItemContainer = styled.div`
         margin-bottom: 20px;
     }
 
-    a.remover{
-        color: #ff5555;
+    a{
+        color: #8080ff;
         margin-top: 20px;
         cursor: pointer;
     }
+
+    .remover {
+        background: none;
+        color: #ff0f0f;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+      }
 
     hr{
         color: #fafafa60;
