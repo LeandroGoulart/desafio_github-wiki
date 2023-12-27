@@ -1,5 +1,8 @@
 # Desafio de Código DIO - Projeto React
 
+![Cadp_Wiki](https://github.com/LeandroGoulart/desafio_github-wiki/assets/82618246/c58d890b-1dee-4035-8f05-905bf0b050fb)
+
+
 Este projeto é um desafio de código proposto pela Digital Innovation One (DIO). O objetivo é criar uma aplicação React que permite ao usuário pesquisar repositórios no GitHub e adicioná-los a uma lista pessoal.
 
 ## Metodologias Aprendidas e Utilizadas
